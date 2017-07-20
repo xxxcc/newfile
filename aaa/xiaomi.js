@@ -44,6 +44,20 @@ $(".banner-ul-li").hover(function(){
 })
 
 
+
+
+$(".logo-ul-li a").hover(function(){
+	$(this).children(".car_contenta").css({"width":"120px"}).animate({
+        height:"100px"
+    },400).finish();
+},function(){
+    $(this).children(".car_contenta").css({"width":"120px"}).animate({
+        height:"0px"
+    },400);
+})
+
+
+
 var aBtn=$('#ol1 li');
 		var oUl=$('#ul1');
 		var aLi=$('#ul1 li');
