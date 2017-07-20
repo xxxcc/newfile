@@ -1,0 +1,557 @@
+*{
+    margin: 0px;
+    padding:0px;
+    list-style: none;
+}
+.nav{
+    background: #333;
+    .nav-a{
+        width:1200px;
+        margin: 0 auto;
+        .nav-ul-li{
+            float: left;
+            padding:15px;
+            color: #eee;
+        }
+        .nav-ul-lia{
+            float: right;
+            padding:15px;
+            color: #eee;
+            a{
+                float: right;
+            }
+        }
+        .nav-ul:after{
+            display: block;
+            clear:both;
+            content: '';
+        }
+    }
+}
+.logo{
+    .logo-a{
+        width:1200px;
+        height:100px;
+        margin: 0 auto;
+        .logo-img{
+            width:168px;
+            margin-top:20px;
+            float: left;
+            .logo-img-a{
+                float: left;
+            }
+            .logo-img-b{
+                float:right;
+            }
+        }
+        .logo-ul{
+            height:80px;
+            line-height: 80px;
+            float: left;
+            .logo-ul-li{
+                float:left;
+                color: #666;
+                padding:10px;
+                a{
+                    text-decoration: none;
+                    color: #666;
+                }
+            }
+            .logo-ul-t:after{
+                display: block;
+                clear:both;
+                content: '';
+            }
+        }
+        .logo-inp{
+            float: right;
+            line-height: 100px;
+            input{
+                width:278px;
+                height:30px;
+                border:1px solid #aaa;
+                padding:10px;
+            }
+            img{
+                position:relative;
+                left:-50px;
+                top:5px;
+            }
+        }
+    }
+}
+.logo-a:after{
+    display: block;
+    clear:both;
+    content: '';
+}
+.banner{
+    .banner-a{
+        width:1200px;
+        margin:0 auto;
+        .banner-left{
+            width:235px;
+            background: #0C0E10;
+            color:#aaa;
+            float: left;
+            .banner-ul{
+                .banner-ul-li{
+                    padding:9px 15px;
+                    .banner-p-a{
+                        float: left;
+                    }
+                    .banner-p-b{
+                        float: right;
+                    }
+                    a{
+                        text-decoration: none;
+                        color:#aaa;
+                    }
+                }
+                .banner-ul-li:after{
+                    display: block;
+                    clear: both;
+                    content: '';
+                }
+            }
+        }
+        .banner-right{
+            width:965px;
+            float: left;
+            position: relative;
+            .big-banner{
+                width:965px;
+                height:384px;
+            }
+            .box{width:965px;height:384px; margin:0px auto;position:relative; overflow:hidden;}
+    .box ul{ position:absolute; top:0;left:0;}
+    .box ul li{width:965px;height:384px;}
+    .box ul li img{width:100%;height:100%;}
+    
+    .box ol{ position:absolute; right:0;bottom:10px;}
+    .box ol li{width:20px;height:20px; float:left; line-height:20px; text-align:center; border:1px solid blue; background:#fff; margin-right:10px; border-radius:50%; cursor:pointer;}
+    .box ol li.active{ background:red; color:#fff;}
+        }
+    }
+    .banner-a:after{
+        display: block;
+        clear:both;
+        content: '';
+    }
+}
+.mi{
+    .mi-aa{
+        width:1200px;
+        margin: 0 auto;
+        .mi-a{
+            float: left;
+            table{
+                width:235px;
+                height:170px;
+                background: #5F5750;
+                td{
+                    padding:10px;
+                }
+                figure{
+                    text-align: center;
+                    font-size: 12px;
+                    color: #bbb;
+                }
+            }
+        }
+    }
+    .mi-b{
+        float: left;
+        margin-left: 3.5px;
+        width:318px;
+        height:170px;
+        img{
+            width:100%;
+        }
+    }
+}
+.mi-aa:after{
+    display: block;
+    clear: both;
+    content: '';
+}
+.mistar{
+    .mistar-a{
+        width:1200px;
+        margin:0 auto;
+        margin-top:45px;
+        .mistar-b{
+            display: flex;
+            justify-content: space-around;
+        }
+        .mistar-fig{
+            width:280px;
+            border-top:1px solid orange;
+            float: left;
+            text-align: center;
+            .figc{
+                text-align: center;
+                color:orange;
+            }
+        }
+        .mistar-figa{
+            width:280px;
+            border-top:1px solid green;
+            float: left;
+            text-align: center;
+            .figc{
+                text-align: center;
+                color:orange;
+            }
+        }
+        .mistar-figb{
+            width:280px;
+            border-top:1px solid blue;
+            float: left;
+            text-align: center;
+            .figc{
+                text-align: center;
+                color:orange;
+            }
+        }
+        .mistar-figc{
+            width:280px;
+            border-top:1px solid purple;
+            float: left;
+            text-align: center;
+            .figc{
+                text-align: center;
+                color:orange;
+            }
+        }
+    }
+    .mistar-b:after{
+        display: block;
+        clear:both;
+        content: '';
+    }
+}
+.jiadian{
+    margin-top:50px;
+    background: #f5f5f5;
+    .jiadian-a{
+        width:1200px;
+        margin:0 auto;
+        .jiadian-p{
+            h2{
+                float: left;
+            }
+            ul{
+                float:right;
+                list-style: none;
+                font-size: 14px;
+                li{
+                    float: right;
+                    margin-left: 10px;
+                    .vr-img{
+                        width:164px;
+                        img{
+                            width:100%;
+                        }
+                    }
+                    .vr:after{
+                        display: block;
+                        clear: both;
+                        content: '';
+                    }
+                }
+                .jiadian-lia{
+                    color:orange;
+                    border-bottom: 2px solid orange;
+                }
+            }
+            ul:after{
+                display: block;
+                clear: both;
+                content: '';
+            }
+        }
+        .jiadian-p:after{
+            display: block;
+            clear:both;
+            content: '';
+        }
+        .jiadian-contant{
+            margin-top:2%;
+                .jiadian-left{
+                    margin-top:10px;
+                    float: left;
+                    ul{
+                        li{
+                            width:234px;
+                            img{
+                                width:100%;
+                            }
+                        }
+                    }
+            }
+            .jiadian-right{
+                float: left;
+                margin-left: 5px;
+                ul{
+                    margin-top:10px;
+                    li{
+                        background: white;
+                        margin-left: 10px;
+                        padding:12px 4px;
+                        float: left;
+                        position: relative;
+                        .xiang{
+                            width:66px;
+                            height:22px;
+                            background: red;
+                            color:white;
+                            position: absolute;
+                            text-align: center;
+                            line-height: 22px;
+                            left: 88px;
+                            font-size: 12px;
+                        }
+                        .xianga{
+                            width:66px;
+                            height:22px;
+                            background: greenyellow;
+                            color:white;
+                            position: absolute;
+                            text-align: center;
+                            line-height: 22px;
+                            left: 88px;
+                            font-size: 12px;
+                        }
+                        .xiangb{
+                            width:66px;
+                            height:22px;
+                            background: greenyellow;
+                            color:white;
+                            position: absolute;
+                            text-align: center;
+                            line-height: 22px;
+                            left: 88px;
+                            font-size: 12px;
+                        }
+                        .xiangc{
+                            width:66px;
+                            height:22px;
+                            background: greenyellow;
+                            color:white;
+                            position: absolute;
+                            text-align: center;
+                            line-height: 22px;
+                            left: 88px;
+                            font-size: 12px;
+                        }
+                        .xiangd{
+                            width:66px;
+                            height:22px;
+                            background: cornflowerblue;
+                            color:white;
+                            position: absolute;
+                            text-align: center;
+                            line-height: 22px;
+                            left: 88px;
+                            font-size: 12px;
+                        }
+                        figure{
+                            text-align: center;
+                            .jiadian-fb{
+                                font-size: 14px;
+                                color:#aaa;
+                            }
+                            .jiadian-fc{
+                                font-size: 14px;
+                                margin-top:2%;
+                                color:orange;
+                                s{
+                                    color:#aaa;
+                                }
+                            }
+                        }
+                    }
+                }
+                
+                ul:after{
+                    display: block;
+                    clear: both;
+                    content: '';
+                }
+            }
+        }
+        .jiadian-contant:after{
+            display: block;
+            clear: both;
+            content: '';
+        }
+    }
+}
+.mistara{
+    .mistara-a{
+        width:1200px;
+        margin:0 auto;
+        margin-top:45px;
+        .mistara-b{
+            display: flex;
+            justify-content: space-around;
+        }
+        .mistara-fig{
+            width:280px;
+            float: left;
+            text-align: center;
+            .figa{
+                text-align: center;
+            }
+            .figb{
+                text-align: center;
+            }
+            .figc{
+                text-align: center;
+                color:orange;
+            }
+        }
+        .mistara-figa{
+            width:280px;
+            text-align: center;
+            float: left;
+            .figa{
+                text-align: center;
+            }
+            .figb{
+                text-align: center;
+            }
+            .figc{
+                text-align: center;
+                color:orange;
+            }
+        }
+        .mistara-figb{
+            width:280px;
+            float: left;
+            text-align: center;
+            .figa{
+                text-align: center;
+            }
+            .figb{
+                text-align: center;
+            }
+            .figc{
+                text-align: center;
+                color:orange;
+            }
+        }
+        .mistara-figc{
+            width:280px;
+            float: left;
+            text-align: center;
+            .figa{
+                text-align: center;
+            }
+            .figb{
+                text-align: center;
+            }
+            .figc{
+                text-align: center;
+                color:orange;
+            }
+        }
+    }
+    .mistar-b:after{
+        display: block;
+        clear:both;
+        content: '';
+    }
+}
+.poter{
+    margin-top:5%;
+    padding:10px 0px;
+    .poter-a{
+        width:1200px;
+        margin:0 auto;
+        .poter-con{
+            .potera{
+                float: left;
+            }
+        }
+        .poter-con:after{
+            display: block;
+            clear: both;
+            content: '';
+        }
+    }
+}
+.video{
+    margin-top:5%;
+    .video-a{
+        width:1200px;
+        margin:0 auto;
+    }
+    .video-con:after{
+        display: block;
+        clear: both;
+        content: '';
+    }
+}
+.foot{
+    .foot-a{
+        width:1200px;
+        margin:0 auto;
+        .foot-ul{
+            border-bottom: 1px solid #aaa;
+        }
+        .foot-li{
+            width:200px;
+            height:80px;
+            line-height: 80px;
+            float:left;
+            padding:15px 20px;
+        }
+        .foot-ul:after{
+            display: block;
+            clear: both;
+            content: '';
+        }
+    }
+    .a:after{
+        display: block;
+        clear: both;
+        content: '';
+    }
+}
+.footer{
+    margin-top:5%;
+    position: relative;
+    .footer-a{
+        width:1200px;
+        margin:0 auto;
+    }
+    .footer-a:after{
+        display: block;
+        clear: both;
+        content: '';
+    }
+    .foot-top{
+//      position: absolute;
+//      right: 5px;
+//      top:-20px;
+        width:50px;
+        height:50px;
+        background: #6E6F73;
+        color: white;
+        text-align: center;
+        line-height: 40px;
+        border-radius: 7px;
+        position: fixed;
+        z-index: 999;
+        right: 10px;
+        cursor: pointer;
+        bottom:10px;
+        display: none;
+        a{
+            text-decoration: none;
+            color: white;
+        }
+    }
+}
