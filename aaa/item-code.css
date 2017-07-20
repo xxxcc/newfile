@@ -70,12 +70,18 @@
 
 .banner .banner-a {
   width: 1200px;
-  margin: 0 auto; }
+  margin: 0 auto;
+  position: relative; }
   .banner .banner-a .banner-left {
     width: 235px;
     background: #0C0E10;
     color: #aaa;
-    float: left; }
+    float: left;
+    z-index: 999;
+    background: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    left: 0;
+    top: 0; }
     .banner .banner-a .banner-left .banner-ul .banner-ul-li {
       padding: 9px 15px; }
       .banner .banner-a .banner-left .banner-ul .banner-ul-li .banner-p-a {
@@ -90,16 +96,16 @@
       clear: both;
       content: ''; }
   .banner .banner-a .banner-right {
-    width: 965px;
+    width: 1200px;
     float: left;
     position: relative; }
     .banner .banner-a .banner-right .big-banner {
-      width: 965px;
+      width: 1200px;
       height: 384px; }
     .banner .banner-a .banner-right .box {
-      width: 965px;
+      width: 1200px;
       height: 384px;
-      margin: 0px auto;
+      margin: 0 auto;
       position: relative;
       overflow: hidden; }
     .banner .banner-a .banner-right .box ul {
@@ -107,8 +113,9 @@
       top: 0;
       left: 0; }
     .banner .banner-a .banner-right .box ul li {
-      width: 965px;
-      height: 384px; }
+      width: 1200px;
+      height: 384px;
+      float: left; }
     .banner .banner-a .banner-right .box ul li img {
       width: 100%;
       height: 100%; }

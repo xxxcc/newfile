@@ -57,16 +57,15 @@ $(".logo-ul-li a").hover(function(){
 })
 
 
-
-var aBtn=$('#ol1 li');
-		var oUl=$('#ul1');
-		var aLi=$('#ul1 li');
+		$('#ul1').width($('#ul1 li').length*$('#ul1 li').width());
 		
-		aBtn.click(function(){
-			aBtn.removeClass('active');
+		$('#ol1 li').click(function(){
+			$('#ol1 li').removeClass('active');
 			$(this).addClass('active');
-			oUl.animate({top:-$(this).index()*aLi.height()})
-		})	
+			$('#ul1').stop().animate({left:-$(this).index()*$('#ul1 li').width()})
+		})
+
+
 
 
 
