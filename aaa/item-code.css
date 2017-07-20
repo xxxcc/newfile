@@ -458,4 +458,9 @@
       text-decoration: none;
       color: white; }
 
+.clearfix:after {
+  content: '';
+  display: block;
+  clear: both; }
+
 /*# sourceMappingURL=item-code.css.map */
