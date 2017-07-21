@@ -12,6 +12,8 @@
       float: left;
       padding: 15px;
       color: #eee; }
+      .nav .nav-a .nav-ul-li .car {
+        position: relative; }
     .nav .nav-a .nav-ul-lia {
       float: right;
       padding: 15px;
@@ -38,6 +40,7 @@
   .logo .logo-a .logo-ul {
     height: 80px;
     line-height: 80px;
+    margin-left: 100px;
     float: left; }
     .logo .logo-a .logo-ul .logo-ul-li {
       float: left;
@@ -62,8 +65,7 @@
       position: relative;
       left: -50px;
       top: 5px; }
-
-.logo-a:after {
+.logo .logo-a:after {
   display: block;
   clear: both;
   content: ''; }

@@ -16,14 +16,14 @@ $(function () {
 					});
 
 $(".car").hover(function(){
-	$("#car_content").css({"width":"120px"}).animate({
-        height:"100px"
+	$("#car_content").css({"width":"300px"}).animate({
+        height:"400px"
     },400).finish();
     
 },function(){
     $(this).css("background", "#424242");
     $(".head_car_text").css("color", "#424242");
-    $("#car_content").css({"width":"120px"}).animate({
+    $("#car_content").css({"width":"300px"}).animate({
         height:"0px"
     },400);
 })
@@ -47,11 +47,11 @@ $(".banner-ul-li").hover(function(){
 
 
 $(".logo-ul-li a").hover(function(){
-	$(this).children(".car_contenta").css({"width":"120px"}).animate({
+	$(this).children(".car_contenta").css({"width":"760px"}).animate({
         height:"100px"
     },400).finish();
 },function(){
-    $(this).children(".car_contenta").css({"width":"120px"}).animate({
+    $(this).children(".car_contenta").css({"width":"760px"}).animate({
         height:"0px"
     },400);
 })
@@ -77,14 +77,11 @@ $(".logo-inp input").blur(function(){
 })
 
 
-
 $(".jiadian-right ul li").hover(function(){
 	$(this).css({"top":"-5px","box-shadow":"0px 15px 30px rgba(0,0,0,0.2)"});
 },function(){
 	$(this).css({"top":"0px","box-shadow":"none"});
 })
-
-
 
 
 
